@@ -79,7 +79,7 @@
             <Spinner
                 android:layout_width="250dp"
                 android:layout_height="40dp"
-                android:id="@+id/convertTo"
+                android:id="@+id/spinnerConvertTo"
                 android:gravity="center" />
 
         </RelativeLayout>
@@ -116,15 +116,14 @@
         android:textSize="9dp"
         />
 
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:id="@+id/editTextOutput"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewOutput"
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:hint="Result" />
+        android:textSize="30dp"
+        android:text="Result" />
 
 </LinearLayout>
